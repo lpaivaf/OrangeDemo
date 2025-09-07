@@ -16,43 +16,49 @@ JavaScript: Linguagem de programação utilizada para escrever os testes.
 
 Para rodar os testes localmente, siga os passos abaixo:
 
-Clone o repositório:
+#### Clone o repositório:
 
 Bash
 
 git clone https://github.com/lpaivaf/OrangeDemo.git
-Navegue até o diretório do projeto:
+
+#### Navegue até o diretório do projeto:
 
 Bash
 
 cd /OrangeHRM
-Instale as dependências:
+
+#### Instale as dependências:
 
 Bash
 
 npm install
-Execute os testes:
+
+#### Execute os testes:
 
 Modo Interativo (Cypress UI): Abra a interface do Cypress para visualizar e selecionar os testes a serem executados.
 
 Bash
 
 npx cypress open
+
 Modo Headless (Terminal): Execute todos os testes no terminal, sem a interface gráfica.
 
 Bash
 
 npx cypress run
-🎥 Vídeos dos Testes
+
+### Vídeos dos Testes
+
 O Cypress captura automaticamente vídeos de cada execução de teste no modo headless. Abaixo estão alguns exemplos que demonstram o fluxo de testes.
 
 Cenário de Login bem-sucedido:
 
 Cenário de Cadastro de novo usuário:
 
-#### Screenshots dos Testes
+### Screenshots dos Testes
 
-Em caso de falha, o Cypress automaticamente tira uma screenshot no momento exato em que o erro ocorre, facilitando a depuração.
+Cypress automaticamente tira uma screenshot no momento da validação. E se houver caso de falhas também pode ser utilizado como recurso para capturar a imagem do momento exato em que o erro ocorre, facilitando a depuração.
 
 Screenshot de mensagem de erro - Login com credenciais inválidas:
 
